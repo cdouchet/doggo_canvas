@@ -1,0 +1,9 @@
+[package]
+name = "models"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.204", features = ["derive"] }
+ts-rs = { version = "9.0.1", features = ["import-esm", "uuid-impl"] }
+uuid = { version = "1.10.0", features = ["fast-rng", "v4", "serde"] }
